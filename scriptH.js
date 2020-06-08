@@ -27,7 +27,7 @@ switch (lang){
 // выполнение через массив
 let weekArr = [['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']];
 //let weekArr = [[week],'1'];
-console.log( weekArr[+question][day+1] );
+console.log( weekArr[+question][day-1] );
 //console.log( weekArr[0][0][day]);
 
 // вторая часть задания
